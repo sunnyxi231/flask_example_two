@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <div class="query">
+      <form action="/" method="POST" >
+      {{ form.hidden_tag() }}
+      	 <ul>
+          <li> Name : {{ form.name() }} </li>
+	  <li> Age : {{ form.age() }} </li>	
+	</ul>
+	{{ form.submit() }}
+      </form>
+    </div>
+  </body>
+</html>
